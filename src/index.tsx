@@ -1,2 +1,1 @@
-export { default as SquircleView } from './SquircleViewNativeComponent';
-export * from './SquircleViewNativeComponent';
+export { SquircleView, type SquircleProps } from './components/SquircleView';
