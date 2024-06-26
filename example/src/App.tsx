@@ -1,12 +1,18 @@
-import * as React from 'react';
+import { SafeAreaView, StatusBar, StyleSheet, View } from 'react-native';
 
-import { StyleSheet, View } from 'react-native';
-import { SquircleView } from 'react-native-squircle';
+import { colors } from './styles/globals';
+import { Home } from './views/home';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <SquircleView color="#32a852" style={styles.box} />
+      <SafeAreaView>
+        <StatusBar
+          barStyle="dark-content"
+          backgroundColor={colors.background}
+        />
+        <Home />
+      </SafeAreaView>
     </View>
   );
 }
@@ -14,12 +20,6 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  box: {
-    width: 60,
-    height: 60,
-    marginVertical: 20,
+    backgroundColor: colors.background,
   },
 });
