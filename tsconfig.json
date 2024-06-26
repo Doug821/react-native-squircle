@@ -2,7 +2,7 @@
   "compilerOptions": {
     "rootDir": ".",
     "paths": {
-      "react-native-squircle": ["./src/index"]
+      "react-native-squircle-layout": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,

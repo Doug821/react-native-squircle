@@ -1,6 +1,6 @@
-# react-native-squircle
+# react-native-squircle-layout
 
-squircle component for React Native apps
+A React Native component that renders a squircle shape. This component allows you to create a squircle shape with a color of your choice and use it as a background for other components.
 
 ## Installation
 
@@ -8,10 +8,16 @@ squircle component for React Native apps
 npm install react-native-squircle
 ```
 
+or
+
+```sh
+yarn add react-native-squircle
+```
+
 ## Usage
 
 ```js
-import { SquircleView } from "react-native-squircle";
+import { SquircleView } from "react-native-squircle-layout";
 
 // ...
 

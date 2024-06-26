@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Text, View } from 'react-native';
-import { SquircleView } from 'react-native-squircle';
+import { SquircleView } from 'react-native-squircle-layout';
 
 import { SquircleControls } from '../../components/SquircleControls';
 

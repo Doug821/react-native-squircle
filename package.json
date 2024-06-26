@@ -1,7 +1,7 @@
 {
-  "name": "react-native-squircle",
+  "name": "react-native-squircle-layout",
   "version": "0.1.0",
-  "description": "squircle component for React Native apps",
+  "description": "A React Native component that allows you to create squircle shapes.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/src/index.d.ts",
@@ -26,7 +26,7 @@
     "!**/.*"
   ],
   "scripts": {
-    "example": "yarn workspace react-native-squircle-example",
+    "example": "yarn workspace react-native-squircle-layout-example",
     "test": "jest",
     "typecheck": "tsc --noEmit",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
