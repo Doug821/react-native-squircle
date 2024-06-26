@@ -107,11 +107,9 @@ Other <code>View</code> Props
 All other View props from React Native are supported.
 
 ## Example
+
 <div style="display: flex; justify-content: center; align-items: center;">
-<video width="320" height="640" loop autoplay controls>
-  <source src="./assets/example.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+  <img src="./assets/example.gif" width="300" />
 </div>
 
 ## Contributing
