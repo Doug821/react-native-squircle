@@ -2,16 +2,8 @@
 
 A React Native component that renders a squircle shape. This component allows you to create a squircle shape with a color of your choice and use it as a background for other components.
 
-<div style="display: flex; justify-content: center; align-items: center; gap: 40px;">
-  <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 20px">
-    <h3>With Corner Smoothing</h3>
-    <img src="./assets/shape-smooth.png" width="300" />
-  </div>
-  <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 20px"
-  >
-    <h3>Without Corner Smoothing</h3>
-    <img src="./assets/shape-normal.png" width="300" />
-  </div>
+<div style="display: flex; justify-content: center; align-items: center;">
+  <img src="./assets/shapes.png" />
 </div>
 
 ## Installation
