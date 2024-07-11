@@ -1,6 +1,6 @@
 {
   "name": "react-native-squircle-layout",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A React Native component that allows you to create squircle shapes.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
